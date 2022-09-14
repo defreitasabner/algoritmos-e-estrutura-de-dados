@@ -13,3 +13,5 @@ def insertion_sort(lista: List[Any]):
             lista[indice_menor_valor] = lista[indice_menor_valor - 1] 
             indice_menor_valor -= 1
             lista[indice_menor_valor] = menor_valor
+
+    return lista
