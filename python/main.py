@@ -5,5 +5,5 @@ from selection_sort import selection_sort
 tamanho_lista = 6
 lista_exemplo = gera_lista_exemplo(tamanho_lista)
 
-# selection_sort(lista_exemplo)
+selection_sort(lista_exemplo)
 insertion_sort(lista_exemplo)
