@@ -10,7 +10,7 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 ### Ordenação
 | Algoritmo      | Python |
 | -------------- |:------:|
-| Bubble Sort    | |
+| Bubble Sort    | :white_check_mark: |
 | Selection Sort | :white_check_mark: |
 | Insertion Sort | :white_check_mark: |
 | Merge Sort     | |
