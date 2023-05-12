@@ -17,11 +17,11 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Quick Sort     | |
 
 ## Estrutura de Dados
-| Estrutura de Dados | Python |
-| ------------------ |:------:|
-| Pilhas (Stack)     | :white_check_mark: |
-| Filas (Queue)      | :white_check_mark: |
-| Árvores (Tree)     | |
+| Estrutura de Dados | Python | Dart |
+| ------------------ |:------:| :--: |
+| Pilhas (Stack)     | :white_check_mark: | :white_check_mark: |
+| Filas (Queue)      | :white_check_mark: | :white_check_mark: |
+| Árvores (Tree)     | | |
 
 Você pode conferir minhas anotações: 
 - [Filas](./estrutura_de_dados/sobre_filas.md)
