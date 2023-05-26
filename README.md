@@ -7,6 +7,7 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | ------------- |:------:|
 | Linear Search | |
 | Binary Search | |
+| Binary Search Tree | :white_check_mark: |
 ### Ordenação
 | Algoritmo      | Python |
 | -------------- |:------:|
