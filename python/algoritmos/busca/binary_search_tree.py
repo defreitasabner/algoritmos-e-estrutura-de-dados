@@ -1,3 +1,5 @@
+from utils.decorators import performance_check
+
 class Node:
 
     def __init__(self, data: int) -> None:
@@ -74,10 +76,12 @@ class BinarySearchTree:
     def post_order(self) -> None:
         self._root.post_order()
 
+    @performance_check
     def search(self, value: int) -> bool:
         return self._root.search(value)
     
     @staticmethod
+    @performance_check
     def create_from_list(items: list[int]):
         tree = BinarySearchTree(items[0])
         for item in items:
