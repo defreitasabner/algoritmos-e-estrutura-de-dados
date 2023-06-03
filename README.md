@@ -5,7 +5,7 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 ### Busca
 | Algoritmo     | Python |
 | ------------- |:------:|
-| Linear Search | |
+| Sequential Search | :white_check_mark: |
 | Binary Search | |
 | Binary Search Tree | :white_check_mark: |
 ### Ordenação
@@ -25,5 +25,5 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Árvores (Tree)     | | | |
 
 Você pode conferir minhas anotações: 
-- [Filas](./estrutura_de_dados/sobre_filas.md)
-- [Pilhas](./estrutura_de_dados/sobre_pilhas.md)
+- [Filas](./sobre_filas.md)
+- [Pilhas](./sobre_pilhas.md)
