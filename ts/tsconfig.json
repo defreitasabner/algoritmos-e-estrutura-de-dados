@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "js/",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+    },
+    "include": ["estrutura_de_dados/**/*", "utils/**/*"],
+}
