@@ -3,19 +3,19 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 
 ## Algoritmos
 ### Busca
-| Algoritmo     | Python |
-| ------------- |:------:|
-| Sequential Search | :white_check_mark: |
-| Binary Search | |
-| Binary Search Tree | :white_check_mark: |
+| Algoritmo     | Python | C++ |
+| ------------- |:------:|:---:|
+| Sequential Search | :white_check_mark: | :white_check_mark: |
+| Binary Search | | |
+| Binary Search Tree | :white_check_mark: | |
 ### Ordenação
-| Algoritmo      | Python |
-| -------------- |:------:|
-| Bubble Sort    | :white_check_mark: |
-| Selection Sort | :white_check_mark: |
-| Insertion Sort | :white_check_mark: |
-| Merge Sort     | |
-| Quick Sort     | |
+| Algoritmo      | Python | C++ |
+| -------------- |:------:| :--: |
+| Bubble Sort    | :white_check_mark: | |
+| Selection Sort | :white_check_mark: | :white_check_mark: |
+| Insertion Sort | :white_check_mark: | |
+| Merge Sort     | | |
+| Quick Sort     | | |
 
 ## Estrutura de Dados
 | Estrutura de Dados | Python | Dart | Typescript |
