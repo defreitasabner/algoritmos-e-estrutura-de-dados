@@ -7,5 +7,5 @@
         "removeComments": true,
         "strictNullChecks": true,
     },
-    "include": ["estrutura_de_dados/**/*", "utils/**/*"],
+    "include": ["src/**/*"],
 }
