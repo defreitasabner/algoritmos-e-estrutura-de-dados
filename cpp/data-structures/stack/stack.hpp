@@ -5,8 +5,9 @@ class Stack
     private:
         int length;
         int MAX_SIZE;
+        int* data;
     public:
-        Stack();
+        Stack(int maxSize);
         ~Stack();
         bool isEmpty() const;
         bool isFull() const;

@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "stack.hpp"
 
 Stack::Stack(int maxSize)
 {
@@ -36,6 +36,7 @@ void Stack::push(int item)
     else
     {
         data[length] = item;
+        length++;
     }
 }
 
