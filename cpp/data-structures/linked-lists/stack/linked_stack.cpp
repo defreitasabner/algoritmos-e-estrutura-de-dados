@@ -12,7 +12,7 @@ LinkedStack::~LinkedStack()
     while (head != NULL)
     {
         temp = head;
-        head = temp -> next;
+        head = temp->next;
         delete temp;
     }
 }
