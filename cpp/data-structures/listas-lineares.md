@@ -9,7 +9,7 @@ São estruturas de dados na qual **cada elemento é precedido por um elemento e 
 | Tamanho flexível | :x: | :white_check_mark: |
 
 ## Listas Lineares Sequenciais
-São listas em que **a ordem lógica dos elementos é a mesma da ordem física**. Ou seja, os **elementos vizinhos** numa lista linear sequencial também estão em **posições vizinhas na memória**. Essa posição confere acesso em tempo constante a qualquer elemento, já que dado o índice do elemento e seu tipo, basta uma operação matemática simples para encontrá-lo.
+São listas em que **a ordem lógica dos elementos é a mesma da ordem física**. Ou seja, os **elementos vizinhos** numa lista linear sequencial também estão em **posições vizinhas na memória**. Os dados ficam salvos na memória de maneira **contígua**. Essa posição confere acesso em tempo constante a qualquer elemento, já que dado o índice do elemento e seu tipo, basta uma operação matemática simples para encontrá-lo.
 ### Vantagens das listas lineares sequenciais
 - Tempo constante para acesso a qualquer elemento da lista
 - Em vetores ordenados, por conta do tempo constante, é possível aplicar algoritmo de busca binária
@@ -18,7 +18,7 @@ São listas em que **a ordem lógica dos elementos é a mesma da ordem física**
 - **Manter a ordem** pode ser muito custoso, pois talvez seja necessário **muitos deslocamentos em memória**. Por exemplo, caso seja necessário inserir um novo elemento no início ou no meio do vetor, será necessário deslocar todos elementos sucessores para uma posição adiante na memória. O mesmo ocorre para remoções.
 
 ## Listas Lineares Encadeadas
-É um tipo de lista linear em que **a ordem lógica não é a mesma da ordem física**. Os elementos possuem predecessores e sucessores, assim como as demais listas lineares, entretanto esses **elementos ficam espalhados na memória em posições que podem ou não ser vizinhas**. Para que seja mantida a ordem lógica, **cada elemento precisa indicar o endereço do seu sucessor**.
+É um tipo de lista linear em que **a ordem lógica não é a mesma da ordem física**. Os elementos possuem predecessores e sucessores, assim como as demais listas lineares, entretanto esses **elementos ficam espalhados na memória em posições que podem ou não ser vizinhas**. Os dados ficam salvos na memória de maneira **dispersa**. Para que seja mantida a ordem lógica, **cada elemento precisa indicar o endereço do seu sucessor**.
 ### Vantagens das listas lineares encadeadas
 - É possível aumentar ou diminuir o tamanho da lista durante a execução do programa.
 - Operações de inserção ou remoção, ou qualquer outra alteração na ordem lógica, não exigem deslocamento de memória.
