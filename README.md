@@ -10,7 +10,7 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Binary Search Tree | :white_check_mark: | |
 ### Ordenação
 | Algoritmo      | Python | C++ |
-| -------------- |:------:| :--: |
+| -------------- |:------:| :-: |
 | Bubble Sort    | :white_check_mark: | |
 | Selection Sort | :white_check_mark: | :white_check_mark: |
 | Insertion Sort | :white_check_mark: | |
@@ -18,11 +18,12 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Quick Sort     | | |
 
 ## Estrutura de Dados
-| Estrutura de Dados | Python | Dart | Typescript | C++ |
-| ------------------ |:------:| :--: | :--------: | :-: |
-| Pilhas (Stack)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Filas (Queue)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| Árvores (Tree)     | | | | |
+| Estrutura de Dados | C++ |
+| ------------------ | :-: |
+| Pilhas (Stack)     | :white_check_mark: |
+| Filas (Queue)      | :white_check_mark: |
+| Tabela Hash (Hash Table) | |
+| Árvore Binária de Busca (Search Binary Tree) | |
 
 Você pode conferir minhas anotações: 
 - [Filas](./sobre_filas.md)
