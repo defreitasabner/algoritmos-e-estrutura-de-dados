@@ -42,3 +42,21 @@ A partir da raiz, visitamos primeiramente os nós à esquerda, iniciando no nó 
 
 ## Aplicações da estrutura
 Em geral, podem ser usadas em qualquer situação em que queremos organizar os dados por meio de uma chave usada nas buscas. **Quando inserções e remoções são muito frequentes, as árvores são melhores que vetores ordenados em termos de manuntenção da ordem.** Mesmo que os dois tenham um tempo de busca de `O(logn)`, ao se inserir ou remover um elemento num vetor, o custo de refazer a ordenação pode ser muito maior que o de uma árvore.
+
+## Árvores AVL
+São árvores capazes de se alto balancear. Durante as operações de inserção e remoção, ocorrem verificações para saber se a operação irá desbalancear a àrvore e, caso ocorra o desbalanceamento, a árvore será remodelada até voltar a estar balanceada. As detecções de desbalanceamento ocorrem devido ao fator de balanceamento. O fator de balanceamento irá informar o quão balanceada uma árvore está em relação as subárvores presentes à esquerda e à direita. Para calcular esse valor, devemos subtrair o fator de balanceamento dos filhos à direita pelos à esquerda. Toda folha inserida tem fator de balanceamento igual a zero. O fator de balanceamento funciona da seguinte forma:
+- Ao inserir um filho à esquerda, devemos reduzir o fator de balanceamento da árvore em `-1`.
+- Ao insetir um filho à direita, devemos incrementear o fator de balanceamento em `+1`. 
+- Caso o fator de balanceamento saia do intervalo `[-1, 1]`, devemos realizar uma rotação para balancear a árvore.
+
+### Rotações
+As rotações consistem em tornar um dos nós raízes filhos da subárvore a direita ou a esquerda, o nó raiz da árvore e deslocar a raiz para a esquerda ou direita. Como a verificação do fator de balanceamemnto ocorre a cada inserção ou remoção, a única variação que precisamos verificar é nos casos desse fator de balancemento se tornar `-2` ou `2`. As regras de rotação são:
+
+| Nó desbalanceado | Filho do nó desbalanceado | Tipo de rotação | Direção da rotação |
+| ---------------- | ------------------------- | --------------- | ------------------ |
+| +2               | 0 ou +1                   | Simples         | Esquerda           |
+| +2               | -1                        | Dupla           | Direita (Filho), Esquerda (Pai) |
+| -2               | +1                        | Dupla           | Esquerda (Filho), Direita (Pai) |
+| -2               | -1 ou 0                   | Simples         | Direita             |
+
+Basicamente, quando os sinais do nó pai desbalanceado e o do seu filho de maior valor forem iguais, a rotação será simples. Quando os sinais forem diferentes ocorrerá uma rotação dupla.

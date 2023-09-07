@@ -1,5 +1,5 @@
 # Algoritmos & Estruturas de Dados
-Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estudar algoritmos e estruturas de dados durante minha graduação em Tecnologia da Informação. Nesse repositório, você vai encontrar aplicação de algoritmos clássicos e estruturas de dados, como pilhas e filas em diferentes linguagens de programação.
+Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estudar algoritmos e estruturas de dados durante minha graduação em Tecnologia da Informação na UNIVESP. Nesse repositório, você vai encontrar minhas anotações gerais e implementações de algoritmos clássicos e estruturas de dados.
 
 ## Algoritmos
 ### Busca
@@ -8,6 +8,8 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Sequential Search | :white_check_mark: | :white_check_mark: |
 | Binary Search | | |
 | Binary Search Tree | :white_check_mark: | |
+| Depth-first search (DFS)   | |
+| Breadth-first search (BFS) | |
 ### Ordenação
 | Algoritmo      | Python | C++ |
 | -------------- |:------:| :-: |
@@ -24,7 +26,15 @@ Muito bem-vindo ao repositório! Criei esse repositório com o objetivo de estud
 | Filas (Queue)      | :white_check_mark: |
 | Tabela Hash (Hash Table) | |
 | Árvore Binária de Busca (Search Binary Tree) | |
+| Grafos (Graphs)    | |
 
-Você pode conferir minhas anotações: 
-- [Filas](./sobre_filas.md)
-- [Pilhas](./sobre_pilhas.md)
+# Anotações
+## Algoritmos
+- [Busca em Grafos](./docs/busca-em-grafos.md)
+## Estruturas de Dados
+- [Pilhas](./docs/pilhas.md)
+- [Filas](./docs/filas.md)
+- [Listas Lineares (sequenciais e encadeadas)](./docs/listas-lineares.md)
+- [Tabela Hash](./docs/tabela-hash.md)
+- [Árvores](./docs/arvores.md)
+- [Grafos](./docs/grafos.md)
